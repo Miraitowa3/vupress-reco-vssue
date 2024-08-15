@@ -185,7 +185,7 @@ module.exports = {
 
         // 其他的 Vssue 配置
         owner: 'Miraitowa3',
-        repo: 'my-blogs',
+        repo: 'vupress-reco-vssue',
         clientId: 'Ov23liR4lYpCrlQuL3m3',
         clientSecret: 'd8e218872eb11483269fc374a1ad0c616efa971a'
       }
