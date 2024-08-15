@@ -1,0 +1,45 @@
+ //定义（在全局样式中定义）
+ @font-face{
+  font-family:'us';
+  src:url('/fonts/优设标题黑.ttf');}
+
+@font-face{
+    font-family:'apple';
+  src :url('/fonts/apple.ttf');
+}
+
+@font-face {
+  font-family: 'STXINGKA';
+  src: url('/fonts/STXINGKA.TTF');
+}
+
+
+ @font-face {
+  font-family:'DSDIGI';
+  src: url('/fonts/DSDIGI.TTF');
+}
+
+
+
+//重新定义navbar
+
+html
+  &[class=light]
+    .theme-container
+     .navbar
+       background-color rgba(255,255,255,0);
+       .links
+          background-color rgba(255,255,255,0);
+  .theme-container
+    .home-blog
+      .hero
+        h1
+         font-family:'us';
+
+        margin-top: 0px
+        .description
+          margin-top: 0px
+          font-family:'us';
+
+    .navbar
+      font-family:'us';

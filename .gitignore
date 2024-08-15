@@ -1,0 +1,12 @@
+
+*.log
+
+node_modules/*
+
+logs/
+
+**.DS_Store
+
+temp*
+docs/.vuepress/dist/*
+.history
