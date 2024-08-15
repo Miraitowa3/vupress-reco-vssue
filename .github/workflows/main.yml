@@ -31,7 +31,7 @@ jobs:
         source: ${{ secrets.REMOTE_SOURCE }}
         target: ${{ secrets.REMOTE_TARGET }}
         rm: true
-        strip_components: 2
+        strip_components: 3
     
   
        
